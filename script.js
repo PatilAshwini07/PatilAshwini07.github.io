@@ -95,7 +95,7 @@ showSlides2();
 
 document.getElementById("resume-button").addEventListener("click", function() {
     // URL of your resume file
-    const resumeUrl = "./Pratik_Derepatil-Resume (1).pdf"; // Replace with the actual path to your resume file
+    const resumeUrl = "./Ashwini-Patil-resume.pdf"; // Replace with the actual path to your resume file
 
     // Open resume in a new tab
     window.open(resumeUrl, "_blank");
@@ -103,7 +103,7 @@ document.getElementById("resume-button").addEventListener("click", function() {
     // Trigger download
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "./Pratik_Derepatil-Resume (1).pdf"; // Customize the download filename
+    link.download = "./Ashwini-Patil-resume.pdf"; // Customize the download filename
     link.style.display = "none"; // Hide the link
     document.body.appendChild(link);
     link.click();
