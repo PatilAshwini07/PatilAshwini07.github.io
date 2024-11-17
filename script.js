@@ -95,7 +95,7 @@ showSlides2();
 
 document.getElementById("resume-button").addEventListener("click", function() {
     // URL of your resume file
-    const resumeUrl = "./Ashwini-Patil-resume.pdf"; // Replace with the actual path to your resume file
+    const resumeUrl = "./Ashwini-Patil-Resume.pdf"; // Replace with the actual path to your resume file
 
     // Open resume in a new tab
     window.open(resumeUrl, "_blank");
@@ -103,7 +103,7 @@ document.getElementById("resume-button").addEventListener("click", function() {
     // Trigger download
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "./Ashwini-Patil-resume.pdf"; // Customize the download filename
+    link.download = "./Ashwini-Patil-Resume.pdf"; // Customize the download filename
     link.style.display = "none"; // Hide the link
     document.body.appendChild(link);
     link.click();
@@ -113,7 +113,7 @@ document.getElementById("resume-button").addEventListener("click", function() {
 
 document.getElementById("resume-button1").addEventListener("click", function () {
     // URL of your resume file
-    const resumeUrl = "./Ashwini-Patil-resume.pdf"; // Replace with the actual path to your resume file
+    const resumeUrl = "./Ashwini-Patil-Resume.pdf"; // Replace with the actual path to your resume file
 
     // Open resume in a new tab
     window.open(resumeUrl, "_blank");
@@ -121,7 +121,7 @@ document.getElementById("resume-button1").addEventListener("click", function () 
     // Trigger download
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "Ashwini-Patil-resume.pdf"; // Customize the download filename
+    link.download = "./Ashwini-Patil-Resume.pdf"; // Customize the download filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
