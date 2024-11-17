@@ -109,3 +109,21 @@ document.getElementById("resume-button").addEventListener("click", function() {
     link.click();
     document.body.removeChild(link);
 });
+
+
+document.getElementById("resume-button1").addEventListener("click", function () {
+    // URL of your resume file
+    const resumeUrl = "./Ashwini-Patil-resume.pdf"; // Replace with the actual path to your resume file
+
+    // Open resume in a new tab
+    window.open(resumeUrl, "_blank");
+
+    // Trigger download
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Ashwini-Patil-resume.pdf"; // Customize the download filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
